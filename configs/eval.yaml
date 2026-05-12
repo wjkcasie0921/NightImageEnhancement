@@ -1,0 +1,7 @@
+low_dir: ./datasets/LOL/test/low
+normal_dir: ./datasets/LOL/test/normal
+ckpt: ./checkpoints/retinex_lite_best.pth
+output_csv: ./metrics_results.csv
+image_size: 320
+width: 24
+device: null

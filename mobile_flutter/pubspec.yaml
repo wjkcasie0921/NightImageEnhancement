@@ -1,0 +1,29 @@
+name: mobile_flutter
+description: RetinexNetLite mobile enhancement app
+publish_to: "none"
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  image: ^4.2.0
+  image_picker: ^1.1.2
+  permission_handler: ^11.3.1
+  path_provider: ^2.1.4
+  saver_gallery: ^4.1.1
+  provider: ^6.1.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/retinex_lite.ncnn.param
+    - assets/models/retinex_lite.ncnn.bin

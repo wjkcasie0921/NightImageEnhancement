@@ -1,0 +1,50 @@
+# IDE
+.idea/
+.vscode/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 数据集（大）
+datasets/
+
+# 模型检查点、转换产物（各种大文件）
+checkpoints/
+outputs/
+results/
+vis_compare/
+*.pth
+*.onnx
+*.bin
+*.param
+*.pt
+*.ncnn
+*.png
+*.jpg
+*.jpeg
+
+# 移动端生成目录
+mobile/tflite_out/
+mobile/model_conversion/
+mobile/*.onnx
+mobile/*.pth
+mobile/*.bin
+mobile/*.param
+mobile/*.pt
+
+# Flutter 构建产物
+mobile_flutter/build/
+mobile_flutter/.dart_tool/
+mobile_flutter/android/.cxx/
+mobile_flutter/android/build/
+mobile_flutter/ios/
+mobile_flutter/pubspec.lock
+
+# 第三方库
+ncnn/
+vcpkg/
+
+# 临时文件
+*.log
+metrics_results.csv
